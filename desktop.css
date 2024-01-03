@@ -1,0 +1,165 @@
+
+/* only for desktop */ 
+@media (min-width: 992px){
+    .col-1{width:8.33%}
+    .col-2{width:16.66%}
+    .col-3{width:25%}
+    .col-4{width:33.33%}
+    .col-5{width:41.66%}
+    .col-6{width:50%}
+    .col-7{width:58.33%}
+    .col-8{width:66.66%}
+    .col-9{width:75%}
+    .col-10{width:83.33%}
+    .col-11{width:91.66%}
+    .col-12{width:100%}
+}
+
+
+
+/* navbar starts here  */
+.navbar{
+    padding: 10px;
+}
+.navbar-heading{
+    text-align: right;
+}
+.navbar-heading h1{
+    margin-top: 20px;
+}
+.navbar-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+.navbar-menu a{
+    margin: 30px auto;
+    
+} 
+.navbar-menu a:hover{
+    background-color: tomato;
+}
+
+
+/* navbar ends here  */
+/* profile starts here  */
+
+
+.profile .top-weather-icon{
+    width: 250px;
+    height: 250px;
+    right: 60px;
+    top: 20px;
+    transition: width 2s,transform 2s;
+}
+.profile .top-weather-icon:hover{
+    width: 350px;
+}
+.profile-desc{
+    padding: 0;
+    margin-top: 150px;
+
+}
+.profile-desc h2{
+    font-size: 3rem;
+    
+}
+
+.profile .bottom-weather-icon{
+    width: 250px;
+    height: 250px;
+    left: 60px;
+    transition: transform 2s;
+}
+/* profile ends here  */
+
+/* about me starts here */
+
+.aboutme{
+    margin-top: 140px;
+}
+.aboutme-image img{
+    margin-top: 110px;
+}
+.aboutme-desc{
+
+}
+.aboutme-desc p{
+    padding: 10px;
+    text-align: left;
+
+    font-family: 'Montserrat', sans-serif;
+}
+.cv-button {
+   margin:0 auto;
+   
+}
+
+
+
+/* about me ends here */
+
+/* professional experience starts here */
+.professional-experience{
+    display: flex;
+    flex-direction: row;
+}
+/* professional experience ends here */
+/* contact starts */
+.contact-me button{
+    padding: 15px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 150px;
+    margin-top: 32px;
+    
+}
+.contact-me button:hover{
+    background-color: tomato;
+   
+}
+.contact-link{
+    position: relative;
+}
+.media-button{
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    margin-top: 150px;
+    transform: translate(-50%,-50%);
+    width: 150px;
+    margin-left: 215px;
+
+}
+/* contact ends */
+
+/* footer strats */
+
+.footer-menu{
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    
+    height: 80px;
+    display: flex;
+    
+    
+    
+}
+.footer-menu h3{
+   cursor: pointer;
+   font-size: 0.7rem;
+   margin: 25px 20px;
+}
+.footer-desc{
+   background-color: black;
+   color: white;
+   text-align: center;
+   height: 80px;
+}
+/* footer ends */
